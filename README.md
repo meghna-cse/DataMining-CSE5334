@@ -7,11 +7,16 @@ Each folder in this repository corresponds to a specific assignment from the Dat
 ### Programming Assignment 1:
 
 -   **Focus**: tokenization, stop word removal, stemming, TF, DF, IDF, TF-IDF, cosine similarity
--   **Description**: Implementation of code that processes a text corpus to perform text analysis and information retrieval tasks.
+-   **Description**: This assignment focuses on the development of a basic search engine that reads a corpus and produces TF-IDF vectors for documents. The tasks are executed on a corpus of 30 inaugural addresses by different US presidents, provided in the format of text files. Key tasks include:
+    -	Text Processing: Implementation of text processing techniques such as tokenization, stop word removal, and stemming using the NLTK library.
+    -	TF-IDF Computation: Generating TF-IDF vectors for each document in the corpus to capture the importance of terms within documents.
+    -	Cosine Similarity: Computing cosine similarity to identify the document most relevant to a given query based on similarity scores.
+    -	Search Engine Simulation: Using the processed data to simulate a search engine that can return the document most relevant to a given search query.
+    -	Efficient Query Handling: Ensuring the search engine can handle queries efficiently, demonstrating the practical application of information retrieval concepts learned in class.
 
 ### Programming Assignment 2:
 
-- 	**Focus**: Data preprocessing, feature selection, classification, model evaluation.
+- 	**Focus**: Data preprocessing, feature selection, classification, model evaluation
 -	**Description**: This assignment focuses on applying data mining techniques to a dataset to analyze NBA player statistics and predict player roles. Key components include:
 	-	Data Preprocessing: Handling missing values, normalizing datasets, and preparing data for analysis.
 	-	Feature Selection: Identifying and selecting the most relevant features based on statistical analysis for use in modeling.
