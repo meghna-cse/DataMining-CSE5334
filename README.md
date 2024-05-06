@@ -23,3 +23,13 @@ Each folder in this repository corresponds to a specific assignment from the Dat
 	-	Classification: Select the best classification models to accurately predict player positions. Models compared were: SVM, k-Nearest Neighbors, Decision Trees, and Neural Networks.
 	-	Model Evaluation: Evaluating model performance using cross-validation and correlation matrix to identify which classes the model had issues classifying correctly.
 	-	10-Fold Stratified Cross-Validation: Employing cross-validation techniques to assess the robustness of the models across different subsets of the dataset, ensuring that the results are generalizable.
+	
+### Programming Assignment 3:
+
+-   **Focus**: K-means clustering, data normalization, error analysis
+-   **Description**: This assignment concentrates on implementing and evaluating the K-means clustering algorithm with various configurations of the number of clusters (k). The assignment tasks are executed on multiple datasets. Key tasks include:
+    -   Data Normalization: Standardizing datasets to ensure that features contribute equally to the analysis.
+    -   K-means Clustering: Implementation of the K-means clustering algorithm from scratch, including initialization, assignment, and update steps.
+    -   Error Analysis: Calculating the Sum of Squared Errors (SSE) after 20 iterations for different values of k to assess the performance of the clustering.
+    -   Visualization: Creating plots to visualize the clustering results for each k and plotting SSE against k to find the optimal number of clusters.
+    -   Efficient Clustering: Ensuring the algorithm handles data efficiently and scales well with different sizes of datasets and configurations.
